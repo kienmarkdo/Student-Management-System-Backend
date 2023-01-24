@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/student")
+@CrossOrigin // tells spring boot backend to connect to other apps
 public class StudentController {
     @Autowired
     private StudentService studentService;
